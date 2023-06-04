@@ -10,13 +10,12 @@ import java.util.Scanner;
  *
  * @author Felipe
  */
-public class JavaIntro5 {
+public class JavaIntro03 {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        System.out.println("Ingrese un número");
-        int num = read.nextInt();
-        System.out.println("El doble es: " + num * 2);
-        System.out.println("El triple es: " + num * 3);
-        System.out.println("La raíz cuadrada es: " + Math.sqrt(num));
+        System.out.println("Ingrese una frase");
+        String frase = read.nextLine();
+        System.out.println("La frase en minúsculas: " + frase.toLowerCase());
+        System.out.println("La frase en mayúsculas: " + frase.toUpperCase());
     }
 }

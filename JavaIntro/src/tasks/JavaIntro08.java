@@ -10,15 +10,16 @@ import java.util.Scanner;
  *
  * @author Felipe
  */
-public class JavaIntro6 {
+public class JavaIntro08 {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        System.out.println("Ingrese un número");
-        int num = read.nextInt();
-        if (num % 2 == 0) {
-            System.out.println("El número " + num + " es par");
+        System.out.println("Ingrese una palabra o frase");
+        String word = read.nextLine();
+        System.out.println("Verificando si tiene 8 caracteres...");
+        if (word.length() == 8) {
+            System.out.println("CORRECTO");
         } else {
-            System.out.println("El número " + num + " es impar");
+            System.out.println("INCORRECTO");
         }
     }
 }

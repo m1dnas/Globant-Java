@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Felipe
  */
-public class JavaIntro2 {
+public class JavaIntro02 {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
         System.out.println("Ingrese su nombre");

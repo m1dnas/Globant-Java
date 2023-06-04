@@ -10,12 +10,15 @@ import java.util.Scanner;
  *
  * @author Felipe
  */
-public class JavaIntro3 {
+public class JavaIntro06 {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        System.out.println("Ingrese una frase");
-        String frase = read.nextLine();
-        System.out.println("La frase en minúsculas: " + frase.toLowerCase());
-        System.out.println("La frase en mayúsculas: " + frase.toUpperCase());
+        System.out.println("Ingrese un número");
+        int num = read.nextInt();
+        if (num % 2 == 0) {
+            System.out.println("El número " + num + " es par");
+        } else {
+            System.out.println("El número " + num + " es impar");
+        }
     }
 }

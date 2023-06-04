@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Felipe
  */
-public class JavaIntro4 {
+public class JavaIntro04 {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
         System.out.println("Ingrese una cantidad de grados centígrados");
