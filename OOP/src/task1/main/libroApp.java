@@ -1,15 +1,15 @@
 package task1.main;
 
 import task1.libro.Libro;
-import task1.servicio.servicioLibro;
+import task1.servicio.ServicioLibro;
 /**
  *
  * @author Felipe Sandim
  */
-public class libroApp {
+public class LibroApp {
     public static void main(String[] args) {
         // Creamos un objeto de la clase de servicio del libro
-        servicioLibro l1 = new servicioLibro();
+        ServicioLibro l1 = new ServicioLibro();
         
         // Llamamos función del servicio para poner datos del libro
         Libro libro1 = l1.cargarLibro();
